@@ -12,7 +12,7 @@ namespace DotNetDemoSolution.Stack
             char ch;
             int i;
 
-            Console.WriteLine("Put А-J symbols в stack stk1.");
+            Console.WriteLine("Put А-J symbols in stack stk1.");
             for (i = 0; !stk1.IsFull(); i++)
                 stk1.Push((char)('A' + i));
             if (stk1.IsFull()) Console.WriteLine("Stack stk1 is full.");
@@ -26,7 +26,7 @@ namespace DotNetDemoSolution.Stack
             Console.WriteLine();
             if (stk1.IsEmpty()) Console.WriteLine("Stack stk1 is empty.\n");
 
-            Console.WriteLine("Put А-J symbols в stack stk1 again.");
+            Console.WriteLine("Put А-J symbols in stack stk1 again.");
             for (i = 0; !stk1.IsFull(); i++)
                 stk1.Push((char)('A' + i));
 

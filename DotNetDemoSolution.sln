@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDemoSolution.RangeArr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDemoSolution.Shapes", "DotNetDemoSolution.Shapes\DotNetDemoSolution.Shapes.csproj", "{A465FF3B-0CE7-4319-91A2-F9A451C3BCFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDemoSolution.File", "DotNetDemoSolution.File\DotNetDemoSolution.File.csproj", "{8F626741-AD6B-474A-B7F4-EC6D46E2575F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{A465FF3B-0CE7-4319-91A2-F9A451C3BCFA}.Release|x64.Build.0 = Release|Any CPU
 		{A465FF3B-0CE7-4319-91A2-F9A451C3BCFA}.Release|x86.ActiveCfg = Release|Any CPU
 		{A465FF3B-0CE7-4319-91A2-F9A451C3BCFA}.Release|x86.Build.0 = Release|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Debug|x64.Build.0 = Debug|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Debug|x86.Build.0 = Debug|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Release|x64.ActiveCfg = Release|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Release|x64.Build.0 = Release|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Release|x86.ActiveCfg = Release|Any CPU
+		{8F626741-AD6B-474A-B7F4-EC6D46E2575F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
