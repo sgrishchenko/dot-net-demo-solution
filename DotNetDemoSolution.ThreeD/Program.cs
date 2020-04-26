@@ -10,49 +10,49 @@ namespace DotNetDemoSolution.ThreeD
             ThreeD b = new ThreeD(10, 10, 10);
             ThreeD c;
 
-            Console.WriteLine("Координаты точки a: " + a);
-            Console.WriteLine("Координаты точки b: " + b);
+            Console.WriteLine("Coordinates of point a: " + a);
+            Console.WriteLine("Coordinates of point b: " + b);
 
             c = a + b;
-            Console.WriteLine("Результат сложения а + b: " + c);
+            Console.WriteLine("Result of addition a + b: " + c);
 
             c = a + b + c;
-            Console.WriteLine("Результат сложения а + b + с: " + c);
+            Console.WriteLine("Result of addition a + b + c: " + c);
 
             c = c - a;
-            Console.WriteLine("Результат вычитания с - а: " + c);
+            Console.WriteLine("Result of subtraction c - a: " + c);
 
             c = c - b;
-            Console.WriteLine("Результат вычитания с - b: " + c);
+            Console.WriteLine("Result of subtraction c - b: " + c);
 
             c = -a;
-            Console.WriteLine("Результат присваивания -а: " + c);
+            Console.WriteLine("Result of assignment -a: " + c);
 
             Console.WriteLine();
 
             c = a++;
-            Console.WriteLine("Если с = а++");
-            Console.WriteLine("то координаты точки с равны " + c);
-            Console.WriteLine("а координаты точки а равны " + a);
+            Console.WriteLine("If c = a++");
+            Console.WriteLine("than coordinates of point c: " + c);
+            Console.WriteLine("and coordinates of point a: " + a);
 
             a = new ThreeD(1, 2, 3);
             Console.WriteLine();
-            Console.WriteLine("Установка исходных координат точки а: " + a);
+            Console.WriteLine("Setting of initial coordinates of point a: " + a);
             Console.WriteLine();
 
             c = --a;
-            Console.WriteLine("Если с = --а");
-            Console.WriteLine("то координаты точки с равны " + c);
-            Console.WriteLine("а координаты точки а равны " + a);
+            Console.WriteLine("If c = --a");
+            Console.WriteLine("than coordinates of point c: " + c);
+            Console.WriteLine("and coordinates of point a: " + a);
 
             Console.WriteLine();
 
             c = b + 10;
-            Console.WriteLine("Результат сложения b + 10: " + c);
+            Console.WriteLine("Result of addition b + 10: " + c);
             c = 15 + b;
-            Console.WriteLine("Результат сложения 15 + b: " + c);
+            Console.WriteLine("Result of addition 15 + b: " + c);
             c = b - 5;
-            Console.WriteLine("Результат вычитания b - 5: " + c);
+            Console.WriteLine("Result of subtraction b - 5: " + c);
 
             ThreeD i = new ThreeD(5, 6, 7);
             ThreeD j = new ThreeD(10, 10, 10);
@@ -61,70 +61,70 @@ namespace DotNetDemoSolution.ThreeD
 
             Console.WriteLine();
 
-            if (i > k) Console.WriteLine("i > k истинно");
-            if (i < k) Console.WriteLine("i < k истинно");
-            if (i > j) Console.WriteLine("i > j истинно");
-            if (i < j) Console.WriteLine("i < j истинно");
+            if (i > k) Console.WriteLine("i > k is true");
+            if (i < k) Console.WriteLine("i < k is true");
+            if (i > j) Console.WriteLine("i > j is true");
+            if (i < j) Console.WriteLine("i < j is true");
 
             if (i > l)
             {
-                Console.WriteLine("i > l истинно");
+                Console.WriteLine("i > l is true");
             }
             else if (i < l)
             {
-                Console.WriteLine("i < l истинно");
+                Console.WriteLine("i < l is true");
             }
             else
             {
-                Console.WriteLine("Точки i и l находятся на одном расстоянии от начала отсчета");
+                Console.WriteLine("Points i and l are at the same distance from the origin");
             }
 
             c = new ThreeD(0, 0, 0);
 
             Console.WriteLine();
 
-            if (a) Console.WriteLine("Точка а истинна.");
-            else Console.WriteLine("Точка а ложна.");
-            if (b) Console.WriteLine("Точка b истинна.");
-            else Console.WriteLine("Точка b ложна.");
-            if (c) Console.WriteLine("Точка с истинна.");
-            else Console.WriteLine("Точка с ложна.");
+            if (a) Console.WriteLine("Point a is true.");
+            else Console.WriteLine("Point a is false.");
+            if (b) Console.WriteLine("Point b is true.");
+            else Console.WriteLine("Point b is false.");
+            if (c) Console.WriteLine("Point c is true.");
+            else Console.WriteLine("Point c is false.");
 
             Console.WriteLine();
 
-            if (a) Console.WriteLine("Точка а истинна.");
-            if (b) Console.WriteLine("Точка b истинна.");
-            if (c) Console.WriteLine("Точка с истинна.");
+            if (a) Console.WriteLine("Point a is true.");
+            if (b) Console.WriteLine("Point b is true.");
+            if (c) Console.WriteLine("Point c is true.");
 
-            if (!a) Console.WriteLine("Точка а ложна.");
-            if (!b) Console.WriteLine("Точка b ложна.");
-            if (!c) Console.WriteLine("Точка с ложна.");
-
-            Console.WriteLine();
-
-            if (a & b) Console.WriteLine("a & b истинно.");
-            else Console.WriteLine("a & b ложно.");
-            if (a & c) Console.WriteLine("a & с истинно.");
-            else Console.WriteLine("a & с ложно.");
-            if (a | b) Console.WriteLine("a | b истинно.");
-            else Console.WriteLine("a | b ложно.");
-            if (a | c) Console.WriteLine("a | с истинно.");
-            else Console.WriteLine("a | с ложно.");
+            if (!a) Console.WriteLine("Point a is false.");
+            if (!b) Console.WriteLine("Point b is false.");
+            if (!c) Console.WriteLine("Point c is false.");
 
             Console.WriteLine();
 
-            if (a && b) Console.WriteLine("a && b истинно.");
-            else Console.WriteLine("а && b ложно.");
-            if (a && c) Console.WriteLine("а && с истинно.");
-            else Console.WriteLine("a && с ложно.");
-            if (a || b) Console.WriteLine("a || b истинно.");
-            else Console.WriteLine("a || b ложно.");
-            if (a || c) Console.WriteLine("a || с истинно.");
-            else Console.WriteLine("a || с ложно.");
+            if (a & b) Console.WriteLine("a & b is true.");
+            else Console.WriteLine("a & b is false.");
+            if (a & c) Console.WriteLine("a & c is true.");
+            else Console.WriteLine("a & c is false.");
+            if (a | b) Console.WriteLine("a | b is true.");
+            else Console.WriteLine("a | b is false.");
+            if (a | c) Console.WriteLine("a | c is true.");
+            else Console.WriteLine("a | c is false.");
 
             Console.WriteLine();
 
-            Console.WriteLine("Управление циклом с помощью объекта класса ThreeD.");
+            if (a && b) Console.WriteLine("a && b is true.");
+            else Console.WriteLine("a && b is false.");
+            if (a && c) Console.WriteLine("a && c is true.");
+            else Console.WriteLine("a && c is false.");
+            if (a || b) Console.WriteLine("a || b is true.");
+            else Console.WriteLine("a || b is false.");
+            if (a || c) Console.WriteLine("a || c is true.");
+            else Console.WriteLine("a || c is false.");
+
+            Console.WriteLine();
+
+            Console.WriteLine("Controlling a loop with an object of class ThreeD.");
             do
             {
                 Console.WriteLine(b);
